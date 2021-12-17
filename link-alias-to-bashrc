@@ -1,3 +1,4 @@
 #!/bin/bash
 cp nator-alias ~/.nator-alias
+cp nator-alias-help ~/.nator-alias-help
 cat bashrc_insert >> ~/.bashrc

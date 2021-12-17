@@ -1,0 +1,3 @@
+#!/bin/bash
+cat alias-prefix >> ~/.bashrc
+#cat alias-prefix >> ~/.zshrc

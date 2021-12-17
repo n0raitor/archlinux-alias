@@ -1,38 +1,31 @@
 #!/bin/bash
-# If not running interactively, don't do anything #
-[[ $- != *i* ]] && return
-
-# Set Path VAR #
-if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
-fi
-if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
-fi
-
-### Ignore Upper- and LowerCase when TAB Completion ###
-bind "set completion-ignore-case on"
-
 
 ##################
 ### Main ALIAS ###
 ##################
 
-#list
+# Nator Alias Help Page
+alias help-alias="less ~/.nator-alias-help"
+
+# List
 alias ls="ls --color=auto"
 alias la="ls -a --color=auto --time-style long-iso"
 alias l="ls --color=auto -lA --time-style long-iso"
 alias ll="ls --color=auto -la --time-style long-iso"
 alias l.="ls -A | egrep '^\.'"
 
-
+# Change Directory
 alias cd..="cd .."
 alias ..="cd .."
 alias ...="cd ../../"
 alias ....="cd ../../../"
 alias .....="cd ../../../../"
+
+# Find
 alias ff="find / -name"
 alias f="find . -name"
+
+# Color Adjust
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
@@ -41,31 +34,32 @@ alias pacman="pacman --color auto"
 alias pactree="pactree --color"
 alias vdir="vdir --color=auto"
 alias watch="watch --color"
-alias man="color function"
-alias yay="sudo -u norman yay"
-alias browser="midori &"
+#alias man="color function"
+
+alias yay="sudo -u $USER yay"
+#alias browser="midori &"
 
 # Kali Undercover Mode
 alias panic="kali-undercover"
 alias ku="kali-undercover"
 alias qwer="kali-undercover"
 
-# CUSTOM Additional ALIAS
+# PGAdmin4
 alias pgadmin="sudo /usr/pgadmin4/bin/pgadmin4"
+
+# Haskel Shortcut
 alias haskel="ghci"
+
+# CyberGhost
 alias cyberghost="sudo cyberghostvpn --traffic sudo cyberghostvpn --traffic --connect --country-code"
 alias cyberghostlist="cyberghostvpn --traffic --country-code"
-alias spotifys="spotify --force-device-scale-factor=2.0 %U"
+
+# Spotify - IF HDPI Setup
+# alias spotifys="spotify --force-device-scale-factor=2.0 %U"
+
+# VIM
 alias vi="vim"
 
-### MAN PAGE ###
-# Integrate Most in Man
-export PAGER=most
-
-# German Man Page
+# Man Page - German Edition
 alias man="LANG=de_DE.UTF-8 man"
-
-
-
-
 
