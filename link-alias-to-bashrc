@@ -1,0 +1,3 @@
+#!/bin/bash
+cp nator-alias ~/.nator-alias
+cat bashrc_insert >> ~/.bashrc

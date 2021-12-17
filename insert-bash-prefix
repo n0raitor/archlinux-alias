@@ -1,0 +1,3 @@
+#!/bin/bash
+cat bash-prefix >> ~/.bashrc
+#cat bash-prefix >> ~/.zshrc
