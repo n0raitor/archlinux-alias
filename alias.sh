@@ -1,7 +1,16 @@
-# Main ALIAS
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+##################
+### Main ALIAS ###
+##################
+
+#list
 alias ls="ls --color=auto"
 alias l="ls --color=auto -lA --time-style long-iso"
 alias ll="ls --color=auto -la --time-style long-iso"
+
+
 alias cd..="cd .."
 alias ..="cd .."
 alias ...="cd ../../"
@@ -34,8 +43,15 @@ alias cyberghostlist="cyberghostvpn --traffic --country-code"
 alias spotifys="spotify --force-device-scale-factor=2.0 %U"
 alias vi="vim"
 
+### MAN PAGE ###
+# Integrate Most in Man
+export PAGER=most
+
 # German Man Page
 alias man="LANG=de_DE.UTF-8 man"
 
-# Integrate Most in Man
-export PAGER=most
+
+### Ignore Upper- and LowerCase when TAB Completion ###
+bind "set completion-ignore-case on"
+
+
