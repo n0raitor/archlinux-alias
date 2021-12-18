@@ -7,6 +7,7 @@ Use the alias "help-alias" to get an overview of all useful alias commands
 
 Required Packages:
 * kali-undercover
+* hw
 
 **Configure for Bash**
 ```bash
