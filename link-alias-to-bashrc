@@ -2,3 +2,5 @@
 cp nator-alias ~/.nator-alias
 cp nator-alias-help ~/.nator-alias-help
 cat bashrc_insert >> ~/.bashrc
+
+echo "Use help-alias to get help on using the installed aliases"
