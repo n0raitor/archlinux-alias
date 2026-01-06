@@ -7,13 +7,13 @@ Check out the required Packages at **Details**
 
 **For Bash**
 ```bash
-git clone https://github.com/normannator/archlinux-alias.git && cd archlinux-alias/ && ./insert-alias-prefix && ./link-alias-to-bashrc
+git clone https://github.com/n0raitor/archlinux-alias.git && cd archlinux-alias/ && ./insert-alias-prefix && ./link-alias-to-bashrc
 ```
 
 **For ZSH**
 Before executing this command, toggle the uncommended lines in *insert-alias-prefix* to insert the prefixes to zsh and not to bash.
 ```bash
-git clone https://github.com/normannator/archlinux-alias.git && cd archlinux-alias/ && ./insert-alias-prefix && ./link-alias-to-zshrc
+git clone https://github.com/n0raitor/archlinux-alias.git && cd archlinux-alias/ && ./insert-alias-prefix && ./link-alias-to-zshrc
 ```
 
 ## Details
@@ -37,18 +37,18 @@ Optional Packages:
 
 **Configure for Bash**
 ```bash
-git clone https://github.com/normannator/archlinux-alias.git && cd archlinux-alias/ && ./link-alias-to-bashrc
+git clone https://github.com/n0raitor/archlinux-alias.git && cd archlinux-alias/ && ./link-alias-to-bashrc
 ```
 
 **Configure for Zsh**
 ```bash
-git clone https://github.com/normannator/archlinux-alias.git && cd archlinux-alias/ && ./link-alias-to-zshrc
+git clone https://github.com/n0raitor/archlinux-alias.git && cd archlinux-alias/ && ./link-alias-to-zshrc
 ```
 
 **Configure for Bash AND Zsh**
 You can use both Bash and Zsh.
 ```bash
-git clone https://github.com/normannator/archlinux-alias.git && cd archlinux-alias/ && ./link-alias-to-bashrc && ./link-alias-to-zshrc
+git clone https://github.com/n0raitor/archlinux-alias.git && cd archlinux-alias/ && ./link-alias-to-bashrc && ./link-alias-to-zshrc
 ```
 
 **Note**
