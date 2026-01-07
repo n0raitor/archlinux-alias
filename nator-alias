@@ -202,7 +202,7 @@ alias xd="ls /usr/share/xsessions"
 #remove git cache
 alias rmgitcache="rm -r ~/.cache/git"
 
-neofetch # Use this in bashrc only!
+#neofetch # Use this in bashrc only!
 
 ###############################################################################
 # TODO - Update ArchLinux-Alias this way
